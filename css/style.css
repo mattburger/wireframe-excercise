@@ -2,14 +2,9 @@
 html
 {
   background-color: rgb(67, 94, 145);
+  font-family: 'Open Sans',sans-serif;
 }
-#lab9a
-{
-  font-family: sans-serif;
-  font-size: 18pt;
-  font-style: italic;
-}
-
+/*start nav section*/
 #navb
 {
   overflow: hidden;
@@ -20,29 +15,19 @@ html
   border-bottom: 1px solid rgb(255, 255, 255)
 
 }
-#navb ul
+#navb a
 {
-  list-style: none;
+  float: left;
   text-align: center;
-  width: 800px;
-  margin: 0;
-  padding: 0;;
-}
-#navb li{float: left;}
-#navb li a
-{
   display: block;
-  padding: 10px 15px;
+  padding: 10px;
   text-decoration: none;
   font-weight: bold;
   color: rgb(0,102,153);
+  border-left: 1px solid rgb(255, 255, 255);
   border-right: 1px solid rgb(255, 255, 255);
 }
-#navb li:first-child a
-{
-  border-left: 1px solid rgb(255, 255, 255);
-}
-#navb li a:hover
+#navb a:hover
 {
   color: rgb(121, 31, 50);
   background-color: rgb(255, 255, 255);
@@ -52,16 +37,53 @@ html
 {
   padding-top: 60px;
 }
-
-h1
+/*end of nav section*/
+main
 {
   text-align: center;
-  color: rgb(0,102,153);
-  /* font-family: sans-serif; */
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18pt;
+}
+div
+{
+  margin: auto;
+  border: 1px solid black;
+  width: 960px;
+  height: 450px;
+  padding: 30px;
+}
+
+img
+{
+  padding: 5px;
+}
+#feature
+{
+  width: 960px;
+  height: 450px;
+  text-align: center;
+}
+
+#feat-pic
+{
+  float: left;
+}
+
+.footer
+{
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
   background-color: rgb(96, 137, 153);
-  padding: 25px;
-  border: 10px inset rgb(37, 35, 68);
-  margin: 12px 10px 20px 10px;
+  padding: 40px;
+  color: rgb(0,102,153);
+  text-align: center;
+  bottom: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24pt;
+  font-weight: bold;
+}
+.footer.p
+{
+  padding: 10px;
 }
